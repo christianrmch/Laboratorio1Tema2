@@ -1,0 +1,1 @@
+cmd /c cd $(CURRENT_DIRECTORY) & "C:\Program Files\Java\jdk-19\bin\javac" $(FILE_NAME) & "C:\Program Files\Java\jdk-19\bin\java" -classpath "$(CURRENT_DIRECTORY)" $(NAME_PART) & pause
